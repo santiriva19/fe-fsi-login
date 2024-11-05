@@ -33,7 +33,7 @@ function LoginContainer() {
 
       try {
         const response = await fetch(
-          "https://be-fsi-login-auak.onrender.com/usuarios/login",
+          "https://be-fsi-login-auak.onrender.com/login",
           {
             method: "POST",
             headers: {
